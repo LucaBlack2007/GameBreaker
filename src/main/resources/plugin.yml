@@ -1,0 +1,11 @@
+name: GameBreaker
+version: ${project.version}
+main: co.dragsim.gamebreaker.Main
+api-version: 1.16
+commands:
+  givegamebreaker:
+    aliases: [grantgamebreaker]
+    description: Gives a GameBreaker to a player.
+  gamebreaker:
+    aliases: [gb]
+    description: Reloads the GameBreaker configuration.
