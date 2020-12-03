@@ -1,0 +1,10 @@
+gamebreaker:
+
+  # permission required to use the /givegamebreaker command.
+  gamebreaker-command-permission: 'gamebreaker.give'
+
+  # permission required to use the /gamebreaker reload or /gb reload command.
+  configuration-reload-permission: 'gamebreaker.reload'
+
+  # message sent to each player when a gamebreaker is given, use <SENDER> and <RECIEVER>.
+  gamebreaker-message: '<SENDER> &ehas granted &r<RECIEVER> &ewith a &dGame Breaker&e!'
